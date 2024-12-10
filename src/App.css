@@ -1,0 +1,26 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+.border-green{
+  border: 2px solid green;
+}
+.border-red{
+  border: 2px solid red;
+}
+.border-blue{
+  border: 2px solid blue;
+}
+.banner-container{
+  height:18vh;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 0;
+}
+.banner{
+  max-width: 100%;
+  margin-top: -4vh;
+
+}
