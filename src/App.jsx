@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import bannerPic from './assets/banner_pic.jpg';
 import Banner from "./assets/components/Banner.jsx"
+import About from "./assets/components/About.jsx"
 
-import './App.css'
+// import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,8 +12,9 @@ function App() {
       
         
        <Banner /> 
+       <About />
       
-      <h1>Creative Carpentry of Saddeworth</h1>
+      
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
