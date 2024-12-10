@@ -1,4 +1,4 @@
-import bannerPic from '../../assets/banner_pic.jpg';
+import bannerPic from '../pictures/banner_pic.jpg';
 import styles from '../styles/banner.module.css'
 
 export default function Banner(){
