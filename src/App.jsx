@@ -3,6 +3,7 @@ import Banner from "./assets/components/Banner.jsx"
 import About from "./assets/components/About.jsx"
 import Projects from "./assets/components/Projects.jsx"
 import Contact from "./assets/components/Contact.jsx"
+import Navbar from './assets/components/Navbar.jsx'
 
 // import './App.css'
 
@@ -14,6 +15,7 @@ function App() {
       
         
        <Banner /> 
+       <Navbar/>
        <About />
        <Projects/>
        <Contact/>
