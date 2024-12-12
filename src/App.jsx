@@ -16,10 +16,16 @@ function App() {
         
        <Banner /> 
        <Navbar/>
-       <About />
-       <Projects/>
-       <Contact/>
+       <section>
+        <About />
+        <Projects/>
+        <Contact/>
       
+
+
+       </section>
+        
+       
       
       
     </>

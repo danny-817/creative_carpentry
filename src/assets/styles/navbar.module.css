@@ -9,5 +9,20 @@
 .nav_button{
     /* padding:0 2em; */
     list-style: none;
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: rgb(113, 90, 31);
 
+}
+a:hover {
+    color: rgb(5, 141, 66);
+    cursor: pointer;
+    
+}
+
+ul{
+    margin: 0;
+    padding: 0;
 }
