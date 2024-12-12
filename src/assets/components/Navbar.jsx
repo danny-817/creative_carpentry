@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import styles from "../styles/navbar.module.css"
 
 
@@ -6,13 +7,13 @@ export default function Navbar() {
     <nav>
       <ul className={styles.navbar_container}>
         <li className={styles.nav_button}>
-          <a to="/projects">Projects</a>
+          <Link to="/projects">Projects</Link>
         </li>
         <li className={styles.nav_button}>
-          <a to="/about">About</a>
+          <Link to="/about">About</Link>
         </li>
         <li className={styles.nav_button}>
-          <a to="/contact">Contact</a>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
     </nav>
