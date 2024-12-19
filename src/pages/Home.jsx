@@ -5,8 +5,8 @@ export default function Home() {
 		<>
 			<section className={styles.banner_container}>
 				<h2 className={styles.banner_words}>
-					Customer centric, bespoke carpentry service in Saddleworth
-					and the surrounding areas
+					Offering a reliable, custom-design carpentry service in
+					Saddleworth and the surrounding areas
 				</h2>
 				<h2 className={styles.banner_words}>
 					At Creative Carpentry, we pride ourselves on our
