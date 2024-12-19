@@ -1,28 +1,23 @@
-.banner_container{
-    
-    /* width: 100%;
+.banner_container {
+	/* width: 100%;
     max-width: 1280px;
     margin-top: 0;
     display: block;
     margin-bottom: 2vh; */
 
-    display: flex; /* Enables flexbox layout */
-    justify-content: center; /* Centers the image horizontally */
-    align-items: center; /* Centers the image vertically */
-    /* height: 100vh; Optional: makes the container fill the viewport height */
-    text-align: center; /* Fallback for inline content alignment */
-    background-color: #f9f9f9; /* Optional: set a background color */
-    max-width: 1280px;
-    
-
-  }
-  .banner{
-    /* max-width: 100%;
+	display: flex; /* Enables flexbox layout */
+	justify-content: center; /* Centers the image horizontally */
+	align-items: center; /* Centers the image vertically */
+	/* height: 100vh; Optional: makes the container fill the viewport height */
+	text-align: center; /* Fallback for inline content alignment */
+	/* background-color: #f9f9f9; Optional: set a background color */
+	max-width: 1280px;
+}
+.banner {
+	/* max-width: 100%;
     margin-top: auto; */
 
-    max-width: 100%; /* Ensures the image scales properly */
-    height: auto; /* Maintains aspect ratio */
-    object-fit: contain; /* Ensures the image fits well in the container */
-  
-  }
-  
+	max-width: 100%; /* Ensures the image scales properly */
+	height: auto; /* Maintains aspect ratio */
+	object-fit: contain; /* Ensures the image fits well in the container */
+}
