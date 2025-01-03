@@ -1,3 +1,13 @@
+.banner_box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	text-align: center;
+	background-color: rgb(60, 30, 40);
+	border: 2px solid var(--accent-color);
+}
 .banner_container {
 	display: flex;
 	flex-direction: column;
