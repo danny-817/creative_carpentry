@@ -1,12 +1,17 @@
 .banner_box {
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	flex-direction: row;
+	/* justify-content: center;
+	align-items: center; */
 	padding: 20px;
-	text-align: center;
-	background-color: rgb(60, 30, 40);
+	/* text-align: center; */
+	/* background-color: rgb(60, 30, 40); */
 	border: 2px solid var(--accent-color);
+	width: 100%;
+}
+
+.banner_box div {
+	flex: 1;
 }
 .banner_container {
 	display: flex;
@@ -15,7 +20,7 @@
 	align-items: center;
 	padding: 20px;
 	text-align: center;
-	background-color: rgb(60, 30, 40);
+	/* background-color: rgb(60, 30, 40); */
 	border: 2px solid var(--accent-color);
 }
 
@@ -23,6 +28,12 @@
 	margin: 30px 0;
 	font-size: 2rem;
 	line-height: 1.5;
-	color: white;
+	/* color: white; */
 	font-family: Helvetica, sans-serif;
+}
+.banner_pic {
+	flex: 1;
+	min-width: 0;
+	height: auto;
+	object-fit: cover;
 }

@@ -40,7 +40,7 @@
   min-height: 100vh;
 } */
 html {
-	background-color: var(--primary-color);
+	/* background-color: var(--primary-color); */
 }
 body {
 	margin: 0 auto;
@@ -49,7 +49,7 @@ body {
 	width: 100%;
 	height: 100%;
 	overflow-x: hidden; /* Prevent horizontal scroll */
-	background-color: var(--primary-color);
+	/* background-color: var(--primary-color); */
 }
 
 h1 {
