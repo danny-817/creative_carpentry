@@ -1,23 +1,23 @@
 .banner_container {
-	/* width: 100%;
-    max-width: 1280px;
-    margin-top: 0;
-    display: block;
-    margin-bottom: 2vh; */
-
-	display: flex; /* Enables flexbox layout */
-	justify-content: center; /* Centers the image horizontally */
-	align-items: center; /* Centers the image vertically */
-	/* height: 100vh; Optional: makes the container fill the viewport height */
-	text-align: center; /* Fallback for inline content alignment */
-	/* background-color: #f9f9f9; Optional: set a background color */
-	max-width: 1280px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%; /* Full width of viewport */
+	position: relative;
+	overflow: hidden; /* Ensures excess image is hidden */
+	height: 300px; /* Adjust based on design */
+	margin: 0; /* Removes any unwanted margins */
+	padding: 0; /* Removes any unwanted padding */
+	z-index: 0;
 }
-.banner {
-	/* max-width: 100%;
-    margin-top: auto; */
 
-	max-width: 100%; /* Ensures the image scales properly */
-	height: auto; /* Maintains aspect ratio */
-	object-fit: contain; /* Ensures the image fits well in the container */
+.banner {
+	width: 120vw; /* Makes the image wider than the screen */
+	max-width: 100%; /* Prevents shrinking */
+	height: 100%; /* Keeps it at full height */
+	object-fit: cover; /* Ensures the image crops instead of shrinking */
+	position: absolute;
+	left: 50%;
+	top: 50%m;
+	transform: translate(-50%, -50%);
 }

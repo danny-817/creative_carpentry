@@ -5,16 +5,15 @@ export default function Home() {
 	return (
 		<>
 			<section className={styles.banner_box}>
-				<div>
+				<div className={styles.banner_words_container}>
 					<h1 className={styles.banner_words}>
-						At Creative Carpentry, we offer a reliable,
-						custom-design carpentry service in Saddleworth and the
-						surrounding areas
+						A reliable, custom-design carpentry service in
+						Saddleworth and the surrounding areas
 					</h1>
 					<p className={styles.banner_words}>
 						We pride ourselves on our craftsmenship, making high
 						quality, bespoke furniture that's built to last and is
-						designed to your needs.
+						designed to your meet needs.
 					</p>
 				</div>
 				<img

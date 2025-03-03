@@ -1,30 +1,37 @@
 .banner_box {
 	display: flex;
 	flex-direction: row;
-	/* justify-content: center;
-	align-items: center; */
+	justify-content: space-between;
+	align-items: center;
 	padding: 20px;
 	/* text-align: center; */
 	/* background-color: rgb(60, 30, 40); */
 	border: 2px solid var(--accent-color);
-	width: 100%;
+	max-width: 100%;
 }
 
-.banner_box div {
+/* .banner_box div {
 	flex: 1;
-}
-.banner_container {
+} */
+/* .banner_container {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	padding: 20px;
 	text-align: center;
-	/* background-color: rgb(60, 30, 40); */
+	/background-color: rgb(60, 30, 40); 
 	border: 2px solid var(--accent-color);
+} */
+.banner_words_container {
+	/* display: flex;
+	flex-direction: column;
+	justify-items: center; */
+	flex: 1;
+	max-width: 50%;
 }
-
 .banner_words {
+	display: block;
 	margin: 30px 0;
 	font-size: 2rem;
 	line-height: 1.5;
@@ -33,7 +40,24 @@
 }
 .banner_pic {
 	flex: 1;
-	min-width: 0;
+	/* display: block; */
+	max-width: 50%;
 	height: auto;
 	object-fit: cover;
+	width: 100%;
+}
+
+@media (max-width: 768px) {
+	.banner_box {
+		flex-direction: column; /* Stack text vertically */
+		text-align: center;
+	}
+
+	.banner_words_container {
+		max-width: 100%; /* Full width */
+	}
+
+	.banner_pic {
+		display: none;
+	}
 }
