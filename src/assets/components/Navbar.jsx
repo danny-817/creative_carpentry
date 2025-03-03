@@ -6,7 +6,7 @@ import clsx from "clsx";
 export default function Navbar() {
 	const [isOpen, setIsOpen] = useState(false);
 	return (
-		<nav>
+		<nav className={styles.full_width}>
 			<button
 				className={styles.menu_btn}
 				onClick={() => setIsOpen(!isOpen)}

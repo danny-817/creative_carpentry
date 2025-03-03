@@ -7,7 +7,12 @@
 	border-bottom: 2px solid var(--accent-color);
 	width: 100%;
 }
-
+.full_width {
+	position: relative;
+	width: 100vw;
+	left: 0;
+	right: 0;
+}
 /* Navigation Links */
 .navbar_container {
 	display: flex;

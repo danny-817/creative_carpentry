@@ -1,5 +1,6 @@
 import styles from "../assets/styles/home.module.css";
 import { Link } from "react-router-dom";
+import HomeContactButton from "../assets/components/homeContactButton";
 
 export default function Home() {
 	return (
@@ -18,17 +19,19 @@ export default function Home() {
 				</div>
 				<img
 					className={styles.banner_pic}
-					src="src/assets/pictures/creative_carpentry_logo.jpg"
-					alt="place holder picture"
+					src="https://picsum.photos/300/300"
+					alt="Placeholder"
+					// src="src/assets/pictures/creative_carpentry_logo.jpg"
+					// alt="place holder picture"
 				/>
 			</section>
 			<h2 className={styles.banner_words}>
-				If you would like a no-obligation quote, send us an email,
+				If you've got an idea for a project you're thinking of, or need
+				a bit of help to make the best use of an unloved area in your
+				home and you would like a no-obligation quote, send us an email,
 				WhatsApp message or call us to discuss how we can help you.
-				<br /> <br />
-				All the details can be found on our{" "}
-				<Link to="/contact">Contact</Link> page
 			</h2>
+			<HomeContactButton />
 		</>
 	);
 }

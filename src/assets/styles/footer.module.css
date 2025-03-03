@@ -1,0 +1,14 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.footer_container {
+	width: 100vw;
+	padding: 20px;
+	height: 200px;
+
+	background-color: antiquewhite;
+	position: absolute;
+
+	left: 0;
+}
