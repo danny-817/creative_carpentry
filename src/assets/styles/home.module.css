@@ -57,6 +57,9 @@ p.banner_words{
 	font-style: italic;
 
 }
+h2.banner_words{
+	color: black;
+}
 
 .banner_pic {
 	flex: 1;
