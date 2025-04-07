@@ -1,5 +1,5 @@
 import styles from "../assets/styles/home.module.css";
-import { Link } from "react-router-dom";
+
 import HomeContactButton from "../assets/components/homeContactButton";
 
 export default function Home() {
@@ -12,9 +12,9 @@ export default function Home() {
 						Saddleworth and the surrounding areas
 					</h1>
 					<p className={styles.banner_words}>
-						We pride ourselves on our craftsmenship, making high
+						"We pride ourselves on our craftsmenship, making high
 						quality, bespoke furniture that's built to last and is
-						designed to your meet needs.
+						designed to meet your exact needs"
 					</p>
 				</div>
 				{/*<img*/}
