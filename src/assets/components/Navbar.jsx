@@ -28,7 +28,7 @@ export default function Navbar() {
 						Home
 					</Link>
 				</li>
-				<li className={styles.nav_button}>
+				{/* <li className={styles.nav_button}>
 					<Link
 						to="/projects"
 						onClick={() => {
@@ -37,7 +37,7 @@ export default function Navbar() {
 					>
 						Projects
 					</Link>
-				</li>
+				</li> */}
 				<li className={styles.nav_button}>
 					<Link
 						to="/about"
@@ -46,6 +46,47 @@ export default function Navbar() {
 						}}
 					>
 						About
+					</Link>
+				</li>
+				<li className={styles.nav_button}>
+					<Link
+						to="/outdoorprojects"
+						onClick={() => {
+							setIsOpen(!isOpen);
+						}}
+					>
+						Outdoor Projects
+					</Link>
+				</li>
+
+				<li className={styles.nav_button}>
+					<Link
+						to="/kitchenfitting"
+						onClick={() => {
+							setIsOpen(!isOpen);
+						}}
+					>
+						Kitchen Fitting
+					</Link>
+				</li>
+				<li className={styles.nav_button}>
+					<Link
+						to="/storagesolutions"
+						onClick={() => {
+							setIsOpen(!isOpen);
+						}}
+					>
+						Storage Solutions
+					</Link>
+				</li>
+				<li className={styles.nav_button}>
+					<Link
+						to="/customdesigns"
+						onClick={() => {
+							setIsOpen(!isOpen);
+						}}
+					>
+						Custom Designs
 					</Link>
 				</li>
 				<li className={styles.nav_button}>

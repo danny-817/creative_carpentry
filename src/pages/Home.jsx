@@ -17,13 +17,13 @@ export default function Home() {
 						designed to your meet needs.
 					</p>
 				</div>
-				<img
-					className={styles.banner_pic}
-					src="https://picsum.photos/300/300"
-					alt="Placeholder"
-					// src="src/assets/pictures/creative_carpentry_logo.jpg"
-					// alt="place holder picture"
-				/>
+				{/*<img*/}
+				{/*	className={styles.banner_pic}*/}
+				{/*	src="https://picsum.photos/300/300"*/}
+				{/*	alt="Placeholder"*/}
+				{/*	// src="src/assets/pictures/creative_carpentry_logo.jpg"*/}
+				{/*	// alt="place holder picture"*/}
+				{/*/>*/}
 			</section>
 			<h2 className={styles.banner_words}>
 				If you've got an idea for a project you're thinking of, or need
