@@ -13,7 +13,7 @@ export default function Home() {
 					</h1>
 					<p className={styles.banner_words}>
 						"We pride ourselves on our craftsmenship, making high
-						quality, bespoke furniture that's built to last and is
+						quality, bespoke furniture that's built with integrity and is
 						designed to meet your exact needs"
 					</p>
 				</div>

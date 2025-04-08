@@ -30,6 +30,8 @@
 	text-align: center;
 	color: var(--accenthighlight-color);
 	text-decoration: none;
+	font-family: Helvetica, sans-serif;
+	font-weight: lighter;
 	/* padding: 0.5em; */
 }
 .home_button {
@@ -38,10 +40,12 @@
 .nav_button a {
 	color: black;
 	text-decoration: none;
+	transition: color 0.5s ease;
 }
 
 .nav_button a:hover {
-	color: white;
+
+	color: brown;
 }
 
 /* Mobile Menu Button */
