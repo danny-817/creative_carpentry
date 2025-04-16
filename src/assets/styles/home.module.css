@@ -11,8 +11,17 @@
 /*}*/
 .banner_box{
 	width: 100%;
-	background-image:url("https://picsum.photos/300/300");
+	/*Background image brown filter*/
+	/*background-image: linear-gradient(rgba(75, 50, 40, 0.6), rgba(75, 50, 40, 0.6)),
+	url("https://picsum.photos/300/300");*/
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+	url("../pictures/media_wall.jpg");
+	/*url("https://picsum.photos/300/300");*/
 	background-size:cover;
+	background-position: center;
+
+
+
 }
 
 /* .banner_box div {
@@ -33,19 +42,36 @@
 	flex-direction: column;
 	justify-items: center;
 	text-align: center;
-	background-color: rgba(0,0,0,0.5);
+	/*background-color: rgba(75, 50, 40, 0.84);*/
+	height: 75vh;
+	max-width: 1100px;
+	margin: auto;
+	justify-content: space-evenly;
 
 }
 .banner_words {
 	display: block;
-	margin: 30px;
-	font-size: 3vw;
+	margin: 50px;
+	font-size: 2vw;
+
 	line-height: 1.5;
 	/* color: white; */
 	font-family: Helvetica, sans-serif;
-	color: white;
+	color: antiquewhite;
+	font-weight: lighter;
+}
+p.banner_words{
+	font-style: italic;
 
 }
+h1.banner_words{
+	font-size: 3vw;
+}
+h2.banner_words{
+	color: black;
+	text-align: justify;
+}
+
 .banner_pic {
 	flex: 1;
 	/* display: block; */
@@ -62,19 +88,23 @@
 }
 .contact_button {
 	display: inline-block;
-	border-radius: 15px;
+	/*border-radius: 15px;*/
 	text-decoration: none;
-	font-size: 5vw;
-	padding: 0 10vw;
+	font-size: 4vw;
+	padding: 0 5vw;
 	background-color: antiquewhite;
-	box-shadow: inset 0 0 0.2em 0.1em darkgoldenrod;
+	/*box-shadow: inset 0 0 0.2em 0.1em darkgoldenrod;*/
 	margin: 0 auto;
+	font-family: Helvetica, sans-serif;
+	transition: background-color 0.5s ease
+
 }
 .contact_button:visited {
 	color: black;
 }
 .contact_button:hover {
-	color: white;
+	/*color: antiquewhite;*/
+	background-color: rgb(166, 161, 143);
 }
 
 @media (max-width: 768px) {
@@ -89,5 +119,16 @@
 
 	.banner_pic {
 		display: none;
+	}
+	.banner_words {
+		display: block;
+		margin: 50px;
+		font-size: 4vw;
+
+		line-height: 1.5;
+		/* color: white; */
+		font-family: Helvetica, sans-serif;
+		color: white;
+		font-weight: lighter;
 	}
 }
