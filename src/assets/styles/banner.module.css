@@ -12,7 +12,7 @@
 }
 
 .banner {
-	width: 120vw; /* Makes the image wider than the screen */
+	width: 100%; /* Makes the image wider than the screen */
 	max-width: 100%; /* Prevents shrinking */
 	height: 100%; /* Keeps it at full height */
 	object-fit: cover; /* Ensures the image crops instead of shrinking */
@@ -20,4 +20,10 @@
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width: 2000px) {
+.banner_container{
+	height: 375px;
+}
 }
