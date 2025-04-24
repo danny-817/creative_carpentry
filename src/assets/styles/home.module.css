@@ -63,7 +63,13 @@
 p.banner_words{
 	font-style: italic;
 
+
 }
+/*@media screen and (min-width: 1200px) {*/
+/*	p.banner_words {*/
+/*		font-size: 40px;*/
+/*	}*/
+/*}*/
 h1.banner_words{
 	font-size: 3vw;
 }
