@@ -1,0 +1,25 @@
+.container{
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.contact_form{
+    width: 50%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+}
+input[type=text],[type=email]{
+    resize: vertical;
+    width: 50%;
+}
+
+textarea{
+    resize: vertical;
+
+}
+form input{
+    margin-bottom: 10px;
+
+}
