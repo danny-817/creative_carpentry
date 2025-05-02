@@ -1,14 +1,36 @@
+input, label, textarea
+{
+    border: none;
+    font-size: 1.5em;
+    font-family: Helvetica, sans-serif;
+}
+button{
+    width: 30%;
+    min-width: fit-content;
+    font-size: 1.5em;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+/*textarea{*/
+/*    border: none;*/
+/*    font-family: Helvetica, sans-serif;*/
+/*}*/
+
 .container{
     width: 100%;
     background-color: antiquewhite;
+    height: fit-content;
+
+
 }
 
 .contact_form{
     width: 50%;
+    height: 80vh;
     margin: 0 auto;
-
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 }
 input[type=text],[type=email]{
     resize: vertical;

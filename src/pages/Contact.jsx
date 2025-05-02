@@ -23,7 +23,7 @@ export default function Contact() {
                         type="text"
                         id="name"
                         name="name"
-                        placeholder="Enter your name"
+                        placeholder="Enter your name..."
                         required
                     ></input>
                     {/*<label htmlFor="lastName">Last name:</label>*/}
@@ -33,7 +33,7 @@ export default function Contact() {
                         type="email"
                         id="email"
                         name="email"
-                        placeholder="Enter your email address"
+                        placeholder="Enter your email address..."
                         required
                     >
                     </input>
@@ -41,7 +41,7 @@ export default function Contact() {
                     <textarea
                         id="message"
                         name="message"
-                        placeholder="Enter your enquiry"
+                        placeholder="Enter your enquiry..."
                         rows="15"
                         required
                     ></textarea>
