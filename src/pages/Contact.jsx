@@ -4,6 +4,22 @@ export default function Contact() {
   return (
     <>
       <div className={styles.container}>
+        <div className={styles.contact_phone_container}>
+          <p className={styles.contact_phone}>
+            To get more info, you can call us or send us a message on WhatsApp
+            along with any pictures that you think might help
+          </p>
+          {/*<a href="tel:+1234567890">Call</a>*/}
+          <a href="https://wa.me/1234567890">
+            <img
+              src="/public/green-whatsapp-logo-phone-call-icon-704081694688104qpuonypjkg.png"
+              // src="https://via.placeholder.com/150"
+              alt="dwqd qw"
+              height="100"
+              width="100"
+            />
+          </a>
+        </div>
         <div className={styles.contact_intro_container}>
           <p className={styles.contact_intro}>
             If you'd prefer to email us your enquiry, simply fill in the form
