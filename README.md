@@ -12,7 +12,7 @@ Currently, two official plugins are available:
 
 ### Contact form
 
-I've managed to get the contact form to email the site owner when a customer makes an enquiry. I've used a web based service called **Formsubmit**. This is a free service however it may have limitations:
+I've managed to get the contact form to email the site owner when a customer makes an enquiry. I've used a web based service called **Formsubmit** https://formsubmit.co/. This is a free service however it may have limitations:
 
 * limited number of uses, either per month or in total.
 * Limited time to test the service.
