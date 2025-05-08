@@ -9,15 +9,15 @@ export default function Contact() {
             To get more info, you can call us or send us a message on WhatsApp
             along with any pictures that you think might help
           </p>
-          {/*<a href="tel:+1234567890">Call</a>*/}
           <a href="https://wa.me/1234567890">
-            <img
-              src="/public/green-whatsapp-logo-phone-call-icon-704081694688104qpuonypjkg.png"
-              // src="https://via.placeholder.com/150"
-              alt="dwqd qw"
-              height="100"
-              width="100"
-            />
+            <div className={styles.contact_phone_button}>
+              <p>Telephone</p>
+            </div>
+          </a>
+          <a href="https://wa.me/1234567890">
+            <div className={styles.contact_phone_button}>
+              <p>WhatsApp</p>
+            </div>
           </a>
         </div>
         <div className={styles.contact_intro_container}>
