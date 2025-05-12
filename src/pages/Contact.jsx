@@ -1,4 +1,5 @@
 import styles from "../assets/styles/contact.module.css";
+import phone from "../../public/telephone.png";
 
 export default function Contact() {
   return (
@@ -9,19 +10,22 @@ export default function Contact() {
             To get more info, you can call us or send us a message on WhatsApp
             along with any pictures that you think might help
           </p>
-          <a href="https://wa.me/1234567890">
-            <div className={styles.contact_phone_button}>
-              <p>Telephone</p>
-            </div>
-          </a>
-          <a href="https://wa.me/1234567890">
-            <div className={styles.contact_phone_button}>
-              <p>WhatsApp</p>
-            </div>
-          </a>
+          <div className={styles.contact_buttons_container}>
+            <a href="https://wa.me/1234567890">
+              <div className={styles.contact_phone_button}>
+                <img src={phone}></img>
+                <p>Telephone</p>
+              </div>
+            </a>
+            <a href="https://wa.me/1234567890">
+              <div className={styles.contact_phone_button}>
+                <p>WhatsApp</p>
+              </div>
+            </a>
+          </div>
         </div>
-        <div className={styles.contact_intro_container}>
-          <p className={styles.contact_intro}>
+        <div className={styles.contact_email_container}>
+          <p className={styles.contact_email}>
             If you'd prefer to email us your enquiry, simply fill in the form
             below and it will be sent straight to us and we'll be back in touch
             as soon as possible.
