@@ -1,5 +1,4 @@
 import styles from "../assets/styles/contact.module.css";
-import phone from "../../public/telephone.png";
 
 export default function Contact() {
   return (
@@ -11,16 +10,34 @@ export default function Contact() {
             along with any pictures that you think might help
           </p>
           <div className={styles.contact_buttons_container}>
-            <a href="https://wa.me/1234567890">
-              <div className={styles.contact_phone_button}>
-                <img src={phone}></img>
-                <p>Telephone</p>
-              </div>
+            <a href="tel:+1234567890" className={styles.contact_call_button}>
+              <svg
+                viewBox="0 0 24 24"
+                className={styles.phone_icon}
+                aria-hidden="true"
+              >
+                <path
+                  fill="currentColor"
+                  d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.21 11.36 11.36 0 003.55 1.13 1 1 0 011 .99v3.61a1 1 0 01-.91 1 18 18 0 01-16.1-16.1 1 1 0 011-.91h3.61a1 1 0 01.99 1 11.36 11.36 0 001.13 3.55 1 1 0 01-.21 1.11z"
+                />
+              </svg>
+              <span>Call Us</span>
             </a>
-            <a href="https://wa.me/1234567890">
-              <div className={styles.contact_phone_button}>
-                <p>WhatsApp</p>
-              </div>
+            <a
+              href="https://wa.me/1234567890"
+              className={styles.contact_call_button}
+            >
+              <svg
+                viewBox="0 0 24 24"
+                className={styles.phone_icon}
+                aria-hidden="true"
+              >
+                <path
+                  fill="currentColor"
+                  d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.21 11.36 11.36 0 003.55 1.13 1 1 0 011 .99v3.61a1 1 0 01-.91 1 18 18 0 01-16.1-16.1 1 1 0 011-.91h3.61a1 1 0 01.99 1 11.36 11.36 0 001.13 3.55 1 1 0 01-.21 1.11z"
+                />
+              </svg>
+              <span>WhatsApp Us</span>
             </a>
           </div>
         </div>

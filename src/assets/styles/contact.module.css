@@ -1,8 +1,8 @@
-a {
-    text-decoration: none;
-    color: inherit;
-;
-}
+/*a {*/
+/*    text-decoration: none;*/
+/*    color: inherit;*/
+/*;*/
+/*}*/
 
 input, label, textarea
 {
@@ -68,6 +68,8 @@ form input{
     justify-content: space-evenly;
 
 }
+
+
 .contact_buttons_container {
     display: flex;
     justify-content: space-evenly;
@@ -77,18 +79,70 @@ form input{
 /*    flex-flow: row wrap;*/
 /*    justify-content: center;*/
 /*}*/
-.contact_phone_button{
-    width:250px;
-    height:100px;
-    background-color: darkgoldenrod;
-    margin: 0 10px;
-    display: flex;
-}
-.contact_phone_button p{
+/*.contact_phone_button{*/
+/*    !*width:250px;*!*/
+/*    !*height:100px;*!*/
+/*    background-color: darkgoldenrod;*/
+/*    margin: 0 10px;*/
+/*    display: flex;*/
+/*    position: relative*/
+/*;*/
+/*    img{*/
+/*        width:75px;*/
+/*        height: 75px;*/
+/*        margin: auto ;*/
+/*        opacity: 0.1;*/
+/*    }*/
+/*    p{*/
+/*        color: white;*/
+/*        font-size: 2.5em;*/
+/*        margin: auto;*/
+/*        position: absolute;*/
+/*        top: 50%;*/
+/*        left: 50%;*/
+/*        transform: translate(-50%, -50%);*/
+/*        z-index: 2;*/
+/*    }*/
+/*}*/
+/*.contact_phone_button p{*/
+/*    color: white;*/
+
+
+.contact_call_button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5em;
+    background-color: #007BFF;
     color: white;
-
-
+    padding: 0.75em 1.5em;
+    border: none;
+    border-radius: 1.5em;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+&:hover{
+    background-color: #0056b3;
+    transform: translateY(-2px);
 }
+}
+
+/*.contact_call_button:hover {*/
+/*    background-color: #0056b3;*/
+/*    transform: translateY(-2px);*/
+/*}*/
+
+.contact-call-button:active {
+    transform: translateY(0);
+}
+
+.phone_icon {
+    width: 2em;
+    height: 2em;
+}
+
+/*}*/
 .contact_email, .contact_phone{
     display: block;
     margin: 20px;
