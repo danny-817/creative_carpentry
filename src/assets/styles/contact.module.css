@@ -112,30 +112,46 @@ form input{
     display: inline-flex;
     align-items: center;
     gap: 0.5em;
-    background-color: #007BFF;
-    color: white;
+
     padding: 0.75em 1.5em;
     border: none;
     border-radius: 1.5em;
     text-decoration: none;
-    font-size: 1.1em;
+    font-size: 1.4em;
     font-weight: 600;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease, transform 0.2s ease;
-&:hover{
-    background-color: #0056b3;
-    transform: translateY(-2px);
+    min-width: 220px;
+    &:hover{
+
+        transform: translateY(-2px);
+    }
+    &:active{
+        transform: translateY(0);
+    }
 }
+.phone{
+    background-color: #007BFF;
+    color: white;
+    &:hover{
+        background-color: #0056b3;
+
+    }
+}
+.whatsapp{
+    background-color: #21a821;
+    color: white;
+    &:hover{
+        background-color: #115611;
+
+    }
 }
 
-/*.contact_call_button:hover {*/
-/*    background-color: #0056b3;*/
-/*    transform: translateY(-2px);*/
+
+
+/*.contact-call-button:active {*/
+/*    transform: translateY(0);*/
 /*}*/
-
-.contact-call-button:active {
-    transform: translateY(0);
-}
 
 .phone_icon {
     width: 2em;
@@ -171,5 +187,16 @@ form input{
         border: none;
         font-size: 20px;
         font-family: Helvetica, sans-serif;
+    }
+    .contact_buttons_container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 30dvh;
+        width: 50%;
+        align-items: center;
+        margin:auto;
+        gap: 2em;
+
     }
 }

@@ -10,7 +10,10 @@ export default function Contact() {
             along with any pictures that you think might help
           </p>
           <div className={styles.contact_buttons_container}>
-            <a href="tel:+1234567890" className={styles.contact_call_button}>
+            <a
+              href="tel:+1234567890"
+              className={`${styles.contact_call_button} ${styles.phone}`}
+            >
               <svg
                 viewBox="0 0 24 24"
                 className={styles.phone_icon}
@@ -25,7 +28,7 @@ export default function Contact() {
             </a>
             <a
               href="https://wa.me/1234567890"
-              className={styles.contact_call_button}
+              className={`${styles.contact_call_button} ${styles.whatsapp}`}
             >
               <svg
                 viewBox="0 0 24 24"
@@ -43,8 +46,8 @@ export default function Contact() {
         </div>
         <div className={styles.contact_email_container}>
           <p className={styles.contact_email}>
-            If you'd prefer to email us your enquiry, simply fill in the form
-            below and it will be sent straight to us and we'll be back in touch
+            If you`d prefer to email us your enquiry, simply fill in the form
+            below and it will be sent straight to us and we`ll be back in touch
             as soon as possible.
           </p>
         </div>
@@ -90,7 +93,7 @@ export default function Contact() {
               id="message"
               name="message"
               placeholder="Enter your enquiry..."
-              rows="15"
+              rows="9"
               required
             ></textarea>
           </div>
