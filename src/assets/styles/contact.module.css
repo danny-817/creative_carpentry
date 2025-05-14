@@ -32,7 +32,7 @@ button{
 
 .contact_form{
     width: 50%;
-    height: 50vh;
+    height: fit-content;
     margin: 0 auto;
     display: flex;
     flex-direction: column;

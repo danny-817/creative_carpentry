@@ -93,7 +93,7 @@ export default function Contact() {
               id="message"
               name="message"
               placeholder="Enter your enquiry..."
-              rows="9"
+              rows="8"
               required
             ></textarea>
           </div>
