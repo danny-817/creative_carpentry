@@ -1,7 +1,10 @@
+// postcss.config.js (ESM)
+import postcssPresetEnv from "postcss-preset-env";
+
 export default {
   plugins: [
-    require("postcss-preset-env")({
-      stage: 1, // Enables future CSS features, including nesting
+    postcssPresetEnv({
+      stage: 1,
       features: {
         "nesting-rules": true,
       },

@@ -1,3 +1,49 @@
-.about-container{
-display: block;
+/*p{*/
+/*	margin: 50px;*/
+/*	font-size: 2vw;*/
+/*	line-height: 1.5;*/
+/*	font-family: Helvetica, sans-serif;*/
+
+/*}*/
+
+.about_container{
+
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+	url("../pictures/media_wall.jpg");
+	/*url("https://picsum.photos/300/300");*/
+	background-size:cover;
+	background-position: center;
+	color: antiquewhite;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.about_text_box{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 1100px;
+}
+
+.about_text{
+	margin: 50px;
+	font-size: 2vw;
+	line-height: 1.5;
+	font-family: Helvetica, sans-serif;
+	text-align: justify;
+	font-weight: lighter;
+
+}
+
+.about_services li{
+	font-size: 2vw;
+	line-height: 1.5;
+	font-family: Helvetica, sans-serif;
+	font-weight: lighter;
+
 }
