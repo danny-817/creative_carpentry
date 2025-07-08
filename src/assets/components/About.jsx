@@ -6,7 +6,7 @@ export default function About() {
       <section className={styles.about_text_box}>
         <p className={styles.about_text}>
           Welcome to Creative Carpentry, a small woodworking business based in
-          Saddleworth and providing out services to the surrounding areas.
+          Saddleworth and providing our services to the surrounding areas.
         </p>
         <p className={styles.about_text}>
           Creative Carpentry began at the start of the lockdown for Covid-19 and
@@ -36,6 +36,9 @@ export default function About() {
           <li>Bespoke carpentry service to meet your needs</li>
           <li>Decking installation</li>
           <li>Flatpack furniture assembly</li>
+          <li>Storage optimisation solutions</li>
+          <li>Garden Fencing</li>
+          <li>Media wall installation</li>
         </ul>
       </section>
     </div>

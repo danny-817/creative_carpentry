@@ -19,6 +19,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+
 }
 
 .about_text_box{
@@ -34,6 +35,8 @@
 	font-size: 2vw;
 	line-height: 1.5;
 	font-family: Helvetica, sans-serif;
+	text-align: justify;
+	font-weight: lighter;
 
 }
 
@@ -41,5 +44,6 @@
 	font-size: 2vw;
 	line-height: 1.5;
 	font-family: Helvetica, sans-serif;
+	font-weight: lighter;
 
 }
