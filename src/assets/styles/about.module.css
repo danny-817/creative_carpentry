@@ -32,7 +32,7 @@
 
 .about_text{
 	margin: 50px;
-	font-size: 2vw;
+	font-size: 4vw;
 	line-height: 1.5;
 	font-family: Helvetica, sans-serif;
 	text-align: justify;
@@ -41,7 +41,7 @@
 }
 
 .about_services li{
-	font-size: 2vw;
+	font-size: 4vw;
 	line-height: 1.5;
 	font-family: Helvetica, sans-serif;
 	font-weight: lighter;
