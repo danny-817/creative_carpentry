@@ -88,7 +88,7 @@ export default function Contact() {
             ></input>
           </div>
           <div className={styles.field_container}>
-            <label htmlFor="message">Enter you enquiry:</label>
+            <label htmlFor="message">Enquiry:</label>
             <textarea
               id="message"
               name="message"
