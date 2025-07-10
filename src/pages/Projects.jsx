@@ -11,13 +11,13 @@ export default function Projects() {
       </div>
       <section className={styles.project_container}>
         <div className={styles.project}>
-          <h2>project</h2>
+          <h2>project - media wall</h2>
         </div>
         <div className={styles.project}>
-          <h2>project2</h2>
+          <h2>project2 - window seat</h2>
         </div>
         <div className={styles.project}>
-          <h2>project3</h2>
+          <h2>project3 - kitchen garden</h2>
         </div>
       </section>
     </>
