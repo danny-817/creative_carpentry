@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "project_name": "Media Wall",
+      "project_description": "A custom built media",
+      "picture_url": "src/assets/pictures/media_wall.jpg",
+      "picture_alt": "alt text - a media wall"
+    },
+    {
+      "project_name": "Window  Seat",
+      "project_description": "A custom built window seat",
+      "picture_url": "src/assets/pictures/window_seat.jpg",
+      "picture_alt": "alt-text - a window seat"
+    },
+    {
+      "project_name": "Garden Kitchen",
+      "project_description": "A custom built kitchen garden",
+      "picture_url": "src/assets/pictures/garden_kitchen.jpg",
+      "picture_alt": "alt text - a garden kitchen"
+    }
+  ]
+}
