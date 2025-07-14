@@ -4,13 +4,13 @@ import projects from "../assets/projects_list.json";
 export default function Projects() {
   return (
     <>
-      <div>
+      <div className={styles.projects_intro_container}>
         <p className={styles.projects_intro}>
           Below you can see some examples of our completed projects. To see our
           latest work, you can visit our <span>FaceBook</span> page
         </p>
       </div>
-      <section className={styles.project_container}>
+      <section className={styles.projects_container}>
         {/*<div className={styles.project}>*/}
         {/*  <h2>project - media wall</h2>*/}
         {/*</div>*/}
@@ -23,10 +23,12 @@ export default function Projects() {
 
         {projects.projects.map((project, i) => (
           // console.log(project),
-          <div key={i} className={styles.project}>
+          <div key={i}>
             <h2>{project.project_name}</h2>
-            <div>
-              <p>{project.project_description}</p>
+            <div className={styles.project}>
+              <p className={styles.project_description}>
+                {project.project_description}
+              </p>
               <img src={project.picture_url} alt={project.picture_alt} />
             </div>
           </div>
