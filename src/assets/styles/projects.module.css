@@ -29,6 +29,15 @@
 .project{
 	display: flex;
 	background-color: antiquewhite;
+	width: 100%;
 
 
+}
+.image_container{
+	width: 50%;
+}
+.project_image{
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
 }

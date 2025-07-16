@@ -29,7 +29,13 @@ export default function Projects() {
               <p className={styles.project_description}>
                 {project.project_description}
               </p>
-              <img src={project.picture_url} alt={project.picture_alt} />
+              <div className={styles.image_container}>
+                <img
+                  src={project.picture_url}
+                  alt={project.picture_alt}
+                  className={styles.project_image}
+                />
+              </div>
             </div>
           </div>
         ))}
