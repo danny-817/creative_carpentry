@@ -7,7 +7,13 @@ export default function Projects() {
       <div className={styles.projects_intro_container}>
         <p className={styles.projects_intro}>
           Below you can see some examples of our completed projects. To see our
-          latest work, you can visit our <span>FaceBook</span> page
+          latest work, you can visit our{" "}
+          <span>
+            <a href="https://www.facebook.com/?locale=en_GB" target="_blank">
+              FaceBook
+            </a>
+          </span>{" "}
+          page
         </p>
       </div>
       <section className={styles.projects_container}>

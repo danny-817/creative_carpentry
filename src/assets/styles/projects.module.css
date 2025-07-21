@@ -60,5 +60,6 @@
 	height: auto;
 	box-sizing: border-box;
 	display: block;
+	filter: blur(0px);
 
 }
