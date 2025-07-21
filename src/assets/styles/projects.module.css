@@ -5,17 +5,14 @@
 .projects_intro{
 	margin: 0;
 	padding:50px;
-	background-color: white;
-	font-size: 2vw;
+	background-color: antiquewhite;
+	font-size: 3vw;
 	line-height: 1.5;
 	font-family: Helvetica, sans-serif;
 	font-weight: lighter;
 	color:black;
 }
-.project p,img{
-	flex: 1;
-	padding: 1rem;
-}
+
 /*.project img{*/
 /*	flex: 1;*/
 /*}*/
@@ -23,15 +20,37 @@
 .projects_container{
 
 }
-.project_description{
+.description_container{
+	display: flex;
+	flex:1;
+	text-align: justify;
 
 }
-.project{
+.project_description{
+	font-family: Helvetica, sans-serif;
+	font-size: 1.5vw;
+	padding: 1rem;
+	font-weight: lighter;
+
+
+
+}
+.project:nth-child(odd){
 	display: flex;
 	background-color: antiquewhite;
 	width: 100%;
-
-
+	align-items: center;
+	justify-content: center;
+	height: 100vh
+}
+.project:nth-child(even){
+	display: flex;
+	flex-direction: row-reverse;
+	background-color: antiquewhite;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	height: auto
 }
 .image_container{
 	width: 50%;
@@ -40,4 +59,6 @@
 	width: 100%;
 	height: auto;
 	box-sizing: border-box;
+	display: block;
+
 }

@@ -23,19 +23,19 @@ export default function Projects() {
 
         {projects.projects.map((project, i) => (
           // console.log(project),
-          <div key={i}>
-            <h2>{project.project_name}</h2>
-            <div className={styles.project}>
+
+          <div key={i} className={styles.project}>
+            <div className={styles.description_container}>
               <p className={styles.project_description}>
                 {project.project_description}
               </p>
-              <div className={styles.image_container}>
-                <img
-                  src={project.picture_url}
-                  alt={project.picture_alt}
-                  className={styles.project_image}
-                />
-              </div>
+            </div>
+            <div className={styles.image_container}>
+              <img
+                src={project.picture_url}
+                alt={project.picture_alt}
+                className={styles.project_image}
+              />
             </div>
           </div>
         ))}
