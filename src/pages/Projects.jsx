@@ -3,7 +3,7 @@ import projects from "../assets/projects_list.json";
 
 export default function Projects() {
   return (
-    <>
+    <div className={styles.projectsPage_container}>
       <div className={styles.projects_intro_container}>
         <p className={styles.projects_intro}>
           Below you can see some examples of our completed projects. To see our
@@ -46,6 +46,6 @@ export default function Projects() {
           </div>
         ))}
       </section>
-    </>
+    </div>
   );
 }
