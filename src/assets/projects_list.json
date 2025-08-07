@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "project_name": "Media Wall",
+      "project_description": "This bespoke media wall was designed and built to be both stylish and practical, creating a stunning focal point for the living room. A false wall was constructed behind the TV to discreetly hide all cables and wiring, keeping the space looking clean and modern. The TV recess is sized to fit the client’s current setup but allows plenty of room for a larger screen in the future, ensuring the design stays relevant for years to come. Integrated shelving and base cabinets provide generous storage, with one custom-built to house a cosy dog bed complete with an electric heater — offering the family’s four-legged friend a warm and comfortable spot during the colder months. Finished with high-quality materials and careful craftsmanship, this media wall brings together smart design and everyday comfort.",
+      "picture_url": "src/assets/pictures/media_wall.jpg",
+      "picture_alt": "alt text - a media wall"
+    },
+    {
+      "project_name": "Window  Seat",
+      "project_description": "This custom-built bay window seat was crafted to make the most of an unused alcove, transforming it into a beautiful and practical feature. Designed to follow the natural shape of the bay, the seat provides a cosy nook for relaxing with a book or enjoying the garden view. Beneath the seat, spacious storage compartments help keep the room clutter-free, offering the perfect place for blankets, cushions, or toys. The seat lid is soft-close for safety and easy access, while the solid wood top adds warmth and character to the space. Finished with careful attention to detail and painted to complement the room’s decor, this bay window seat combines comfort, storage, and timeless style in one elegant piece.",
+      "picture_url": "src/assets/pictures/window_seat.jpg",
+      "picture_alt": "alt-text - a window seat"
+    },
+    {
+      "project_name": "Garden Kitchen",
+      "project_description": "This custom outdoor kitchen was designed to create a practical and stylish cooking space under the client’s covered patio. Built on sturdy lockable castors, the whole unit can be easily moved to adapt to different layouts or seasonal needs. The kitchen was carefully planned to house the client’s existing pizza oven and ceramic grill, with durable heat-resistant surfaces providing a safe and functional workspace. Open shelving and spacious drawers offer plenty of built-in storage for firewood, utensils, and cooking essentials, keeping everything close at hand while maintaining a tidy look. The rich, dark finish contrasts beautifully with the natural wood detailing, blending seamlessly into the garden setting and creating a perfect hub for outdoor entertaining, whatever the weather.",
+      "picture_url": "src/assets/pictures/img.png",
+      "picture_alt": "alt text - a garden kitchen"
+    }
+  ]
+}
