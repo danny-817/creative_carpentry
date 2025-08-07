@@ -15,7 +15,7 @@
 	/*background-image: linear-gradient(rgba(75, 50, 40, 0.6), rgba(75, 50, 40, 0.6)),
 	url("https://picsum.photos/300/300");*/
 	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-	url("../pictures/media_wall.jpg");
+	url("../../../public/pictures/media_wall.jpg");
 	/*url("https://picsum.photos/300/300");*/
 	background-size:cover;
 	background-position: center;
